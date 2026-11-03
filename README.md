@@ -1,2 +1,2 @@
 # DoctorPortal
- Developed Basic CRUD operations for DoctorPortal  using Spring MVC
+ Developed Basic CRUD operations using Spring MVC
