@@ -3,7 +3,7 @@ package com.javaintro;
 public class Bank {
 		static int serial=1235760;
 		 int accNo,balance;
-		 String mobile;
+		 long mobile;
 		 String name;
 		 {
 			serial++;
@@ -22,15 +22,15 @@ public class Bank {
 			Bank b1=new Bank();
 			b1.name="Srinu";
 			b1.balance=1000;
-			b1.mobile="9347568580";
+			b1.mobile=9347568580L;
 			Bank b2=new Bank();
 			b2.name="Raghu";
 			b2.balance=3000;
-			b2.mobile="7386529139";
+			b2.mobile=7386529139L;
 			Bank b3=new Bank();
 			b3.name="Madhavi";
 			b3.balance=5000;
-			b3.mobile="9912946002";
+			b3.mobile=9912946002L;
 		
 			
 		 b1.display();
